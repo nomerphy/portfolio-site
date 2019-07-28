@@ -1,0 +1,299 @@
+@import '_variables';
+
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+html{
+	font-size: 10px;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.preheader{
+	position: relative;
+	top: 0;
+	height: 7.5rem;
+	width: 100%;
+	background-color: $darkblue;
+}
+button{
+	background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.hire-me_btn{
+	width: 20rem;
+	height: 5rem;
+	color: $blue;
+	background: $white;
+	border-radius: 30px;
+	font-size: 1.6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: .5s ease;
+	&:hover{
+		transform: scale(1.05);
+	}
+}
+.preheader-wrap{
+	width: 30%;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.accept{
+	width: 14rem;
+	height: 3.7rem;
+	color: $darkblue;
+	background: $white;
+	border-radius: 30px;
+	font-size: 1.6rem;
+	font-weight: 700;
+	transition: .5s ease;
+	&:hover{
+		transform: scale(1.05);
+	}
+}
+.preheader-text{
+	font-size: 1.4rem;
+	color: $white;
+	font-weight: 400;
+}
+
+							// intro-section
+.intro{
+	height: 100vh;
+	width: 100%;
+	background: $blue;
+	position: relative;
+}
+.intro-wrapper{
+	position: relative;
+	width: 1115px;
+	height: 67rem;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 60px;
+}
+.intro-img{
+	margin: 19rem 0 4rem 0;
+	width: 14rem;
+	height: 14rem;
+	background: $white;
+	border-radius: 50%;
+	position: relative;
+}
+.intro-heading{
+	font-size: 5rem;
+	font-weight: 400;
+	color: $white;
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+}
+.intro-text{
+	font-size: 1.6rem;
+	font-weight: 300;
+	color: $white;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+	padding: 4rem 0 6rem 0;
+}
+.menu{
+	position: absolute;
+	top: 2rem;
+	right: 3rem;
+	width: 30px;
+	cursor: pointer;
+	height: 30px;
+}
+.bar{
+	background: $white;
+	width: 3rem;
+	height: 0.2rem;
+	border-radius: 1rem;
+}
+.bar1{
+	margin-bottom: 6px;
+}
+.bar3{
+	margin-top: 6px;
+}
+				//about
+.about{
+	height: 35vh;
+	background: $white;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.headings{
+	color: $heading;
+	font-size: 4.5rem;
+	font-weight: 300;
+	line-height: 3.5rem;
+}
+.about-heading{
+	margin-bottom: 5.5rem;
+}
+.about-text{
+	color: $dark;
+	font-size: 1.5rem;
+}
+
+							// .expert
+.expert{
+	height: 100vh;
+	width: 100%;
+	background: $grey;
+	text-align: center;
+}
+.expert-wrapper{
+	width: 1200px;
+	height:800px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.expert-heading{
+	padding-top: 7rem;
+}
+.box{
+	height: 350px;
+	width: 365px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+.icon{
+	width: 13rem;
+	height: 13rem;
+	border-radius: 50%;
+	border: 1px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box h3{
+	color: $heading;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 2.4rem;
+}
+.box p{
+	color: $dark;
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+								// work
+.work{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.work-heading{
+	margin-bottom: 12rem;
+}
+.work-wrapper{
+	width: 1140px;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.work-box{
+	overflow: hidden;
+	width: 360px;
+	height: 270px;
+	background: $box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all .5s ease;
+	cursor: pointer;
+	&:hover{
+		transform: scale(1.1);
+	}
+}
+.work-box:nth-child(1),.work-box:nth-child(2),.work-box:nth-child(3){
+	align-items: flex-end;
+}
+
+									//clients
+.clients{
+	height: 30rem;
+	text-align: center;
+	width: 100%;
+	background: $grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.clients-heading{
+	margin-bottom: 5.5rem;
+}
+.clients-wrapper{
+	width: 1050px;
+	height: 55px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.client{
+	filter: brightness(0.1);
+	opacity: .15;
+	transition: all 1s ease;
+	cursor: pointer;
+	width: 250px;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&:hover{
+		filter: brightness(1);
+		opacity: 1;
+	}
+}
+
+							//footer
+footer{
+	width: 100%;
+	height: 250px;
+	background: $blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-heading{
+	font-size: 3.5rem;
+	font-weight: 300;
+	color: $white;
+}
+.footer-heading span{
+	font-weight: 700;
+}
+footer .hire-me_btn{
+	margin-left: 5rem;
+}
+
+@import '_media';

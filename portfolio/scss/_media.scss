@@ -1,0 +1,244 @@
+@media(max-width: 1440px) {
+	.preheader-wrap{
+		width: 40%;
+	}
+	.expert{
+		height: 115vh;
+	}
+}
+@media(max-width: 1300px) {
+	.preheader-wrap{
+		width: 45%;
+	}
+	.expert{
+		height: 110vh;
+	}
+}
+@media(max-width: 1200px) {
+	html{
+		font-size: 9.5px;
+	}
+	.preheader-wrap{
+		width: 50%;
+	}
+	.expert{
+		height: 110vh;
+	}
+	.expert-wrapper{
+		width: 100%;
+		margin: 0 0;
+	}
+}
+@media(max-width: 1150px) {
+	.menu{
+		right: 5%;
+		top: 5%;
+	}
+	.work-heading{
+	margin-bottom: 6rem;
+	}
+	.expert{
+		height: 115vh;
+	}
+}
+@media(max-width: 1125px) {
+	html{
+		font-size: 9px;
+	}
+	.intro-wrapper{
+		width: 100%;
+		margin: 0 0;
+	}
+	.intro-text{
+		font-size: 1.4rem;
+	}
+	.menu{
+		right: 8%;
+	}
+	.work-heading{
+	margin: 5rem 0 5rem 0;
+	}
+	.work-wrapper{
+		width: 100%;
+		height: 100%;
+		margin: 0 0;
+	}
+	.work-box{
+		width: 330px;
+	}
+	.expert{
+		height: 150vh;
+	}
+}
+@media(max-width: 1015px){
+	.work{
+		height: 140vh;
+	}
+	.client{
+		width: 175px;
+	}
+}
+@media(max-width: 950px){
+	.preheader-wrap{
+		width: 60%;
+	}
+	.client{
+		width: 75px;
+	}
+}
+@media(max-width: 900px){
+	.preheader-wrap{
+		width: 70%;
+	}
+	.intro-heading{
+		font-size: 2.5rem;
+	}
+	.intro-text{
+		font-size: 1.5rem;
+	}
+	.about{
+		padding: 0 35px 0 35px;
+	}
+	.clients{
+		height: 65rem;
+	}
+	.clients-heading{
+	margin: 5rem 0 1rem 0;
+	}
+	.clients-wrapper{
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+	}
+	.client{
+		width: 25px;
+	}
+	.footer-heading{
+		font-size: 3rem;
+	}
+	.box{
+		width: 315px;
+	}
+	footer .hire-me_btn{
+	margin-left: 3rem;
+	}
+}
+@media(max-width: 768px)
+{
+	.bar{
+		height: 0.4rem;
+		border-radius: 0;
+	}
+	.footer-heading{
+		font-size: 2.5rem;
+	}
+	.hire-me_btn{
+		width: 18rem;
+		height: 4.5rem;
+	}
+	.box{
+		width: 300px;
+	}
+}
+@media(max-width: 675px){
+	.preheader-wrap{
+		width : 85%;
+	}
+	.work{
+		height: 255vh;
+	}
+	.work-heading{
+	margin-bottom: 2rem;
+	}
+	.footer-heading{
+		font-size: 2.2rem;
+	}
+	.hire-me_btn{
+		width: 16rem;
+		height: 4rem;
+	}
+	.box{
+		width: 265px;
+	}
+}
+@media(max-width: 545px){
+	.intro-text{
+		padding: 2rem 0 6rem 0;
+	}
+	.preheader-wrap{
+		width: 90%;
+	}
+	.expert{
+		height: 280vh;
+	}
+	.footer-heading{
+	font-size: 2rem;
+	}
+}
+@media(max-width: 500px){
+	.hire-me_btn{
+		width: 14rem;
+		height: 3.7rem;
+	}
+	.intro-text{
+		padding: 1rem 0 6rem 0;
+	}
+}
+@media(max-width: 420px){
+	.expert{
+		height: 300vh;
+	}
+	footer{
+		flex-direction: column;
+		height: 21rem;
+	}
+	.hire-me_btn{
+		width: 17.5rem;
+		height: 5rem;
+	}
+	.footer-heading{
+		font-size: 2rem;
+	}
+	footer .hire-me_btn{
+	margin: 3rem 0 0 0;
+	}
+	.arrow-down{
+		bottom: 16%;
+	}
+}
+@media(max-width: 375px){
+	.intro{
+		height: 105vh;
+	}
+	.about{
+		height: 55vh;
+	}
+	.expert{
+		height: 365vh;
+	}
+	.work{
+		height: 315vh;
+	}
+}
+@media(max-width: 320px){
+	html{
+		font-size: 7px;
+	}
+	.intro{
+		height: 115vh;
+	}
+	.intro-img{
+		width: 12rem;
+		height: 12rem;
+	}
+	.expert{
+		height: 385vh;
+	}
+	.work{
+		height: 330vh;
+		padding: 0 3rem 0 3rem;
+	}
+	.footer-heading{
+		font-size: 1.9rem;
+	}
+}
